@@ -4,7 +4,7 @@ const { Client, RichEmbed } = require('discord.js'); //requiring the discord.js 
 
 const bot = new Client(); 
 
-const token = 'Bots_token_goes_HERE';//put the bot's token(SECRET) here
+const token = 'NjQxMjE0MzY3NzIyODk3NDA4.XfY3VQ.Msl40F9yyx2EN1rjy6LLxBzBiDI';//put the bot's token(SECRET) here
 
 
 
@@ -19,7 +19,7 @@ const token = 'Bots_token_goes_HERE';//put the bot's token(SECRET) here
         //message event commands goes HERE
         bot.on('message', async message => {
             
-        let prefix = ">"; //sets the prefix to the bot here it is (>) you can change it if you want
+        let prefix = "/"; //sets the prefix to the bot here it is (>) you can change it if you want
 
         let args = message.content.substring(prefix.length).split(" "); //(let) creates a variabel here we create a variabel named "args"
 
