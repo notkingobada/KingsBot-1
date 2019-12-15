@@ -4,7 +4,7 @@ const { Client, RichEmbed } = require('discord.js'); //requiring the discord.js 
 
 const bot = new Client(); 
 
-const token = 'NjQxMjE0MzY3NzIyODk3NDA4.XfY3VQ.Msl40F9yyx2EN1rjy6LLxBzBiDI';//put the bot's token(SECRET) here
+const token = 'NjQxMjE0MzY3NzIyODk3NDA4.XfY9_w.qE8wHrGqXbsEANWv1eqNBIPPOUA';//put the bot's token(SECRET) here
 
 
 
