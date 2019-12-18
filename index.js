@@ -19,7 +19,7 @@ const token = 'NjU2MDg0MzkxMTE3NzE3NTA1.XfdgpQ.z_SwfjiSWVZCpHtTqV4MmcA28wI';//pu
         //message event commands goes HERE
         bot.on('message', async message => {
             
-        let prefix = "/"; //sets the prefix to the bot here it is (>) you can change it if you want
+        let prefix = "k"; //sets the prefix to the bot here it is (>) you can change it if you want
 
         let args = message.content.substring(prefix.length).split(" "); //(let) creates a variabel here we create a variabel named "args"
 
